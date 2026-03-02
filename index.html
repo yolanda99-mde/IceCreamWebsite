@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landa Y's Ice Cream</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="description"
+      content="Landa Y's Ice Cream — delicious tubs and popsicles delivered to you."
+    />
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #fff;
+      }
+
+      h1 {
+        color: #cd1b68;
+        font-weight: 700;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .product-img {
+        transition: transform 0.3s ease;
+      }
+
+      .product-img:hover {
+        transform: scale(1.1);
+      }
+
+      .card {
+        border: 0;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 16px;
+        overflow: hidden;
+        height: 100%;
+      }
+
+      .card-img-top {
+        height: 250px;
+        object-fit: cover;
+      }
+
+      .custom-btn {
+        background-color: #ff69b4;
+        color: white;
+        border: none;
+        width: 100%;
+        font-weight: 600;
+        border-radius: 12px;
+        padding: 10px;
+      }
+
+      .custom-btn:hover {
+        background-color: #cd1b68;
+      }
+
+      footer {
+        background-color: #eccce2;
+        padding: 30px;
+        margin-top: 40px;
+        border-radius: 16px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary sticky-top border-bottom"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">🍦 Landa Y's</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#order">Order</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1 class="text-center my-4">Landa Y's Ice Cream</h1>
+
+      <p>
+        Treat yourself to premium ice cream made with love. You get to choose
+        from creamy tubs or refreshing popsicles — you deserve something sweet
+        today!
+      </p>
+
+      <!-- PRODUCTS -->
+      <div class="row" id="menu">
+        <!-- Vanilla -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://www.benjerry.com.sg/files/live/sites/systemsite/files/US%20and%20Global%20Assets/Flavors/Product%20Assets/US/Vanilla%20Ice%20Cream/web_Tower_Vanilla_RGB_HR2_60M.png"
+              alt="Snowy Vanilla ice cream tub"
+              class="card-img-top product-img"
+            />
+            <div class="card-body text-center">
+              <h5>Snowy Vanilla</h5>
+              <p>R119 per tub</p>
+              <button class="custom-btn">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chocolate -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://www.alyonascooking.com/wp-content/uploads/2019/08/chocolate-ice-cream-recipe-19.jpg"
+              alt="Chocolate ice cream tub"
+              class="card-img-top product-img"
+            />
+            <div class="card-body text-center">
+              <h5>Choc Takeover</h5>
+              <p>R129 per tub</p>
+              <button class="custom-btn">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mango -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://previews.123rf.com/images/tobi/tobi1307/tobi130700107/20611268-scoop-of-orange-ice-cream.jpg"
+              alt="Mango ice cream scoop"
+              class="card-img-top product-img"
+            />
+            <div class="card-body text-center">
+              <h5>Vibey Mango</h5>
+              <p>R100 per tub</p>
+              <button class="custom-btn">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pistachio -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0011/7771/4806/articles/Pistachio_Ice_Cream_loaf_tin_2048x.jpg?v=1619113574"
+              alt="Pistachio ice cream"
+              class="card-img-top product-img"
+            />
+            <div class="card-body text-center">
+              <h5>Pistachio Greens</h5>
+              <p>R159 per tub</p>
+              <button class="custom-btn">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Berry -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://thevegan8.com/wp-content/uploads/2017/07/Vegan-blueberry-cheesecake-ice-cream-2.jpeg"
+              alt="Berry ice cream"
+              class="card-img-top product-img"
+            />
+            <div class="card-body text-center">
+              <h5>Berry Blues</h5>
+              <p>R189 per tub</p>
+              <button class="custom-btn">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Popsicles -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://peasandcrayons.com/wp-content/uploads/2016/06/toddler-kid-friendly-tropical-fruit-ice-pops-strawberry-mango-pineapple-recipe-0122.jpg"
+              alt="Fruit popsicles"
+              class="card-img-top product-img"
+            />
+            <div class="card-body text-center">
+              <h5>Fruity Rainbow Popsicle</h5>
+              <p>R55 per pack</p>
+              <button class="custom-btn">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ORDER FORM -->
+    <footer class="container" id="order">
+      <div class="row align-items-center">
+        <div class="col-md-3">
+          <img
+            src="https://ecdn.teacherspayteachers.com/cdn-cgi/image/format=avif,quality=70,width=525,height=525,onerror=redirect/thumbitem/I-Scream-You-Scream-We-All-Scream-for-Ice-Cream-7481476-1678025240/750f-7481476-1.jpg"
+            alt="Ice cream illustration"
+            class="img-fluid"
+          />
+        </div>
+
+        <div class="col-md-9">
+          <form class="row g-3">
+            <p>Please provide your information below to confirm your order.</p>
+
+            <div class="col-md-4">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Full Name"
+                required
+              />
+            </div>
+
+            <div class="col-md-4">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email"
+                required
+              />
+            </div>
+
+            <div class="col-md-4">
+              <button type="submit" class="custom-btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
